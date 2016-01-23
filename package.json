@@ -1,0 +1,28 @@
+{
+  "name": "todomvc-react-atom-saga",
+  "version": "0.0.1",
+  "description": "TodoMVC AtomReact app with redux-saga integration",
+  "repository": "https://github.com/yelouafi/todomvc-react-atom-saga",
+  "scripts": {
+    "start": "budo js/app.js:bundle.js --dir ./ --verbose  --live -- -t babelify"
+  },
+  "dependencies": {
+    "atom-react": "^0.14.14",
+    "classnames": "^2.1.3",
+    "keymirror": "~0.1.0",
+    "lodash": "^3.3.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "redux-saga": "^0.5.0"
+  },
+  "devDependencies": {
+    "babel-polyfill": "6.3.14",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-2": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "budo": "^8.0.0"
+  },
+  "author": "Yassine Elouafi (Originally from Sebastien Lorber)"
+}
